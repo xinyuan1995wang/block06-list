@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.section-header {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+
+header h1 {
+    color: #4CAF50;
+}
+
+.pantry-section, .freezer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.category {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 10px;
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container {
+    padding: 10px;
+}
+
+.grocery-image, .freezer-image {
+    width: 100%; 
+    padding: 10px; 
+    display: block;
+}
+.image-container {
+    padding: 10px;
+    max-width: 300px;
+
+}
+
